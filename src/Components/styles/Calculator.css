@@ -1,0 +1,16 @@
+.calculator {
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s;
+  max-width: 300px;
+}
+
+.calculator__display {
+  padding: 30px 130px;
+  overflow-x: scroll;
+}
+
+.calculator__btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
